@@ -4,7 +4,7 @@ This is an example test project with implemented basic code structure.
 
 ### Installation
 
-Best is to use virtualenv module
+#### Best is to use virtualenv module
 
 ```
 python3 -m venv venv
@@ -13,7 +13,7 @@ pip isntall -U pip
 pip install -r requirements.txt
 ```
 
-For local use Before proper browser and drivers should be set up
+#### For local use Before proper browser and drivers should be set up
 
 https://chromedriver.chromium.org/
 
@@ -25,7 +25,7 @@ https://github.com/yandex/YandexDriver/releases
 
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 
-For remote usage SeleniumGrid, CloudBased testing service, or Selenoid should be set up.
+#### For remote usage SeleniumGrid, CloudBased testing service, or Selenoid should be set up.
 
 https://www.selenium.dev/documentation/en/grid/grid_4/
 

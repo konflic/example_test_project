@@ -6,10 +6,5 @@ from selenium import webdriver
 def browser(request):
     """Basic browser fixture for testing"""
     driver = webdriver.Chrome()
-
-    def fin():
-        driver.close()
-
-    request.addfinalizer(fin)
-
+    request.addfinalizer(driver.close)
     return driver

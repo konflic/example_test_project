@@ -13,7 +13,7 @@ pip isntall -U pip
 pip install -r requirements.txt
 ```
 
-#### For local use Before proper browser and drivers should be set up
+#### For local use Before proper browser and drivers should be set up find drivers links
 
 https://chromedriver.chromium.org/
 

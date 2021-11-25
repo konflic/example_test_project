@@ -1,6 +1,9 @@
 import math
 
+class Test:
+  pass
 
+t = Test()
 
 
 
